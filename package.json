@@ -1,0 +1,22 @@
+{
+  "name": "arjunrawal-resume",
+  "version": "1.0.0",
+  "description": "arjun resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunrawal07/Resume-Node.git"
+  },
+  "author": "arjun rawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjunrawal07/Resume-Node/issues"
+  },
+  "homepage": "https://github.com/arjunrawal07/Resume-Node#readme",
+  "bin": {
+    "your-command-here": "./index.js"
+  }
+}

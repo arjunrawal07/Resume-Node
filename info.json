@@ -1,0 +1,31 @@
+{
+  "name": "Arjun Rawal",
+  "headline": "Hi! I'm Arjun, a foreign policy professional turned software engineer. I am passionate about building solutions to complex global problems affecting communities across the world.",
+  "linkedin": "www.linkedin.com/in/arjun-rawal",
+  "github": "arjunrawal07",
+  "email": "arjunrawal07@gmail.com",
+
+  "proficientTechnologies": ["HTML", "CSS", "Javascript", "React", "Node"],
+  "otherSkills": [
+    "Project Management",
+    "Communications",
+    "Arabic",
+    "Hindi - native speaker",
+    "Spanish",
+    "Ultimate Frisbee",
+    "Dance"
+  ],
+  "otherInterests": [
+    { "favoriteAuthors": ["Jhumpa Lahiri", "Rakesh Satyal", "Neel Patel"] },
+    {
+      "favoriteMusicArtists": [
+        "Shakira",
+        "Cardi B",
+        "Rosalia",
+        "Dua Lipa",
+        "Sia",
+        "Florence and the Machine"
+      ]
+    }
+  ]
+}
