@@ -1,4 +1,4 @@
-# Arjun-Resume-npm
+# Arjun Rawal-Resume-npm
 
 ## How To Install 
 
@@ -18,7 +18,7 @@ To Install:
 
 ## What is this?
 
-Hi! I'm Arjun Rawal, and I wrote a version of my resume that you can install onto your own computer via the command line interface!
+Hi, I'm Arjun Rawal, and I wrote a version of my resume that you can install onto your own computer via the command line interface.
 
 ### How did I do this?
 
@@ -34,7 +34,7 @@ This allows us to run the code globally as well as from the command line.
 
 Step 4. This part is key. It allows you to access the file system (`fs`), which is a pre-defined pacakge within the npm node. `fs` has many pre-defined functions that come with it. We will use the `fs.readFile()` function to "read" the info.json that contains the resume information.
 
-```
+```js
 const fs = require('fs')
 
 fs.readFile(__dirname + '/info.json', 'utf8', function(err, data) {
@@ -49,7 +49,8 @@ fs.readFile(__dirname + '/info.json', 'utf8', function(err, data) {
 
 Step 5. Then add the following to your package.json file:
 
-```"bin": {
+```js
+"bin": {
     "your-command-here": "./index.js"
   },
 
